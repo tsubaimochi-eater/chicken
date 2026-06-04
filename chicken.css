@@ -41,7 +41,9 @@ table,
 th,
 td {border: 1px solid #f5d9c6;}
 
-ul {list-style: none;}
+ul {list-style: none;
+    padding: 0;
+    margin: 0;}
 
 
 nav a {color: #f6c5a1eb;
