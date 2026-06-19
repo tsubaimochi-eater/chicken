@@ -53,3 +53,21 @@ nav a {color: #f6c5a1eb;
 footer a {color: #f6c5a1eb;
     clolist-style: none;
     padding: 0;}
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-items {
+    color: #f6c5a1eb;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .8s;
+}
+
+.link-items:hover {
+    border-bottom: 2px solid #eeb288eb;
+
+}
